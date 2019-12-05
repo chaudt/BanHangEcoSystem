@@ -1,0 +1,13 @@
+src/BanHangEcoSystem/.vs/
+src/BanHangEcoSystem/ChamSocKhachHang.Domain/bin/
+src/BanHangEcoSystem/ChamSocKhachHang.Domain/obj/
+src/BanHangEcoSystem/Config.Server/bin/
+src/BanHangEcoSystem/Config.Server/obj/
+src/BanHangEcoSystem/DonHang.Domain/bin/
+src/BanHangEcoSystem/DonHang.Domain/obj/
+src/BanHangEcoSystem/GiaoHang.Domain/bin/
+src/BanHangEcoSystem/GiaoHang.Domain/obj/
+src/BanHangEcoSystem/LapDat.Domain/bin/
+src/BanHangEcoSystem/LapDat.Domain/obj/
+src/BanHangEcoSystem/test/bin/
+src/BanHangEcoSystem/test/obj/

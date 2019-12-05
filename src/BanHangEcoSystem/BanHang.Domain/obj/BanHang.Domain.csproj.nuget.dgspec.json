@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\BanHang.Domain\\BanHang.Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\BanHang.Domain\\BanHang.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\BanHang.Domain\\BanHang.Domain.csproj",
+        "projectName": "BanHang.Domain",
+        "projectPath": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\BanHang.Domain\\BanHang.Domain.csproj",
+        "packagesPath": "C:\\Users\\chaudt\\.nuget\\packages\\",
+        "outputPath": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\BanHang.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaudt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\Config.Server\\Config.Server.csproj": {
+                "projectPath": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\Config.Server\\Config.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper.FastCrud": {
+              "target": "Package",
+              "version": "[2.5.0.39, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\Config.Server\\Config.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\Config.Server\\Config.Server.csproj",
+        "projectName": "Config.Server",
+        "projectPath": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\Config.Server\\Config.Server.csproj",
+        "packagesPath": "C:\\Users\\chaudt\\.nuget\\packages\\",
+        "outputPath": "D:\\chau.doan\\Research\\Kafka\\v2\\BanHangEcoSystem\\Config.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaudt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.0.1.1, )"
+            },
+            "Dapper.FastCrud": {
+              "target": "Package",
+              "version": "[2.5.0.39, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
